@@ -1,22 +1,17 @@
-import axios from 'axios';
-
+import axios from "axios";
 
 const HomeScreen = {
-
   render: async () => {
-
     // Se obtienen los datos del back para mostrarlos en el front
-    const response = await axios( {
-
-      url: 'http://localhost:5000/api/products',
+    const response = await axios({
+      url: "http://localhost:5000/api/products",
 
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
-
     });
 
-    if(!response || response.statusText !== 'OK') {
+    if (!response || response.statusText !== "OK") {
       return `<div> Error in getting data</div>`;
     }
 
@@ -26,7 +21,9 @@ const HomeScreen = {
     return `
       <ul class="products">
 
-      ${products.map( product => `
+      ${products
+        .map(
+          (product) => `
         <li>
           <div class="product">
 
@@ -51,11 +48,13 @@ const HomeScreen = {
           </div>        
         </li>
       
-      `).join('\n')}
+      `
+        )
+        .join("\n")}
       
       </ul>  
     `;
-  }
-}
+  },
+};
 
 export default HomeScreen;
