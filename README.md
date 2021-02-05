@@ -18,6 +18,8 @@ JS PROJECT
 
 - run npm start
 
+<!--  -->
+
 2. Design Website:
 
 - Create style.css
@@ -32,6 +34,8 @@ JS PROJECT
 
 - Style grid-container, header, main and footer
 
+<!--  -->
+
 3. Create Static Home Screen:
 
 - Create ul.products
@@ -45,6 +49,8 @@ JS PROJECT
 - style ul.products and interval divs
 
 - duplicate 2 times to show 3 products
+
+<!--  -->
 
 4. Render Dynamic Home Screen:
 
@@ -74,6 +80,8 @@ JS PROJECT
 
 - set load event of window to router() function
 
+<!--  -->
+
 5. Build Url Router:
 
 - create routes as route:screen object for home screen
@@ -96,6 +104,8 @@ JS PROJECT
 
 - create screens/Error404.js and render error message
 
+<!--  -->
+
 6. Create Node.JS Server:
 
 - run npm init in root jsamazona folder
@@ -116,6 +126,8 @@ JS PROJECT
 
 - run npm start
 
+<!--  -->
+
 7. Load Products From Backend:
 
 - edit HomeScreen.js
@@ -127,6 +139,8 @@ JS PROJECT
 - make router() async and call await HomeScreen.render()
 
 - use cors on backend
+
+<!--  -->
 
 8. Add Webpack:
 
@@ -152,6 +166,8 @@ JS PROJECT
 
 - change fetch to axios in HomeScreen
 
+<!--  -->
+
 9. Install Babel For ES6 Syntax:
 
 - npm install -D babel core, cli, node, preset-env
@@ -165,6 +181,8 @@ JS PROJECT
 - convert require to import in server.js
 
 - npm start
+
+<!--  -->
 
 10. Enable Code Linting:
 
@@ -186,6 +204,8 @@ JS PROJECT
 
 - set rules for no-console to 0 to ignore linting error
 
+<!--  -->
+
 11. Install VSCode Extension:
 
 - JavaScript (ES6) code snippets
@@ -195,6 +215,8 @@ JS PROJECT
 - Prettier - Code formatter
 
 - HTML&LESS grammar injections
+
+<!--  -->
 
 12. Create Rating Component:
 
@@ -217,3 +239,31 @@ JS PROJECT
 - Edit HomeScreen
 
 - Add div.product-rating and use Rating component
+
+<!--  -->
+
+13. Product Screen:
+
+- get product id from request
+
+- implement /api/product/:id api
+
+- send Ajax request to product api
+
+- create back to result link
+
+- create div.details with 3 columns
+
+- column 1 for product image
+
+- column 2 for product information
+
+- column 3 form product action
+
+- style .details and all columns
+
+- create add to cart button with add-button id
+
+- after_render() to add event to the button
+
+- redirect user to cart/:product_id

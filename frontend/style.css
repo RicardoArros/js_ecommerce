@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color:  #333;
+  color: #333;
   text-decoration: none;
 }
 
@@ -25,16 +25,14 @@ a:hover {
 
 .grid-container {
   display: grid;
-  grid-template-areas: 
+  grid-template-areas:
     'header'
     'main'
-    'footer' 
-  ;
+    'footer';
   grid-template-columns: 1fr;
   grid-template-rows: 5rem 1fr 5rem;
 
   height: 100%;
-
 }
 
 header {
@@ -49,7 +47,6 @@ header {
   background-color: #203040;
 
   padding: 0.5rem;
-  
 }
 
 header a {
@@ -64,7 +61,6 @@ header a:hover {
 
 .brand a {
   font-size: 3rem;
-
 }
 
 footer {
@@ -76,7 +72,6 @@ footer {
 
   background-color: #203040;
 }
-
 
 /* PRODUCTS */
 
@@ -127,4 +122,16 @@ footer {
 
 .product-price {
   font-size: 2rem;
+}
+
+/* RATING */
+
+.rating {
+  color: #ffc000;
+  font-size: 1.8rem;
+}
+
+.rating span:last-child {
+  color: #444;
+  font-size: 1.4rem;
 }
