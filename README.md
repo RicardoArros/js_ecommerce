@@ -267,3 +267,33 @@ JS PROJECT
 - after_render() to add event to the button
 
 - redirect user to cart/:product_id
+
+<!--  -->
+
+14. Product Screen UI:
+
+- create back to result link
+
+- create div.details with 3 columns
+
+- column 1 for product image
+
+- column 2 for product information
+
+- column 3 form product action
+
+- style .details and all columns
+
+- create add to cart button with add-button id
+
+<!--  -->
+
+15. Product Screen Action:
+
+- after_render() to add event to the button
+
+- add event handler for the button
+
+- redirect user to cart/:product_id
+
+- implement after_render in index.js
