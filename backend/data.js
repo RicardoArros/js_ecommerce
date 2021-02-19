@@ -1,7 +1,5 @@
 export default {
-
   products: [
-
     {
       _id: '1',
       name: 'Hiskywin Full Zip Running Shirts Thermal Workout',
@@ -43,6 +41,7 @@ export default {
       rating: 2.5,
       numReviews: 198,
       countInStock: 6,
+      description: 'wena',
     },
     {
       _id: '5',
@@ -66,7 +65,5 @@ export default {
       numReviews: 45,
       countInStock: 6,
     },
-
   ],
-  
 };

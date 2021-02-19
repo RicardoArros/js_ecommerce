@@ -60,7 +60,11 @@ const ProductScreen = {
               <li>
                 Description:
                 <div>
-                  ${product.description}
+                  ${
+                    !product.description
+                      ? 'sin descripción'
+                      : product.description
+                  }
                 </div>
               </li>
             </ul>
