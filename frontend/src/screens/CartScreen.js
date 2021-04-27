@@ -50,8 +50,13 @@ const CartScreen = {
     }
 
     //
-    return `<div>Cart Screen</div>
-    <div>${getCartItems().length}</div>
+    return `
+    
+      <div>Cart Screen</div>
+
+      <div>
+        ${getCartItems().length}
+      </div>
     `;
   },
 };
